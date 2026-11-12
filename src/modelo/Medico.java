@@ -10,4 +10,6 @@ public class Medico extends Persona {
     
     @Override public String getTipoPersona(){return "Médico";}
     @Override public String toString(){return getNombreCompleto()+" - "+especialidad;}
+    
+    //Ampliamiento de las especialidades (a futuro)
 }
